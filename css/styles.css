@@ -1,0 +1,21 @@
+.logo {
+    text-align:center;
+    color: white;
+    padding: 280px;
+    font-size: 30px;
+    background-image:url(/img/backgrounds/h_img.jpg);
+}
+.aboutus{
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    font-size: 15px;
+}
+.services{
+    text-align: center;
+    background-image: url(/img/backgrounds/s_image.jpg);
+    padding: 30px;
+    font-size: 15px;
+    color: white;
+}
+
