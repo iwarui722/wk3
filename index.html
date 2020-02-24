@@ -6,11 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="/js/scripts.js"></script>
-    <script src="/js/jquery-3.4.1.js"></script>
-    <script src="/js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $(this).text($(this).text() == 'DESIGN' ? 'Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.' : 'DESIGN');
+        });
+    });
+</script>
+    
 </head>
 <body>
+    <div class="container">
     <div class="logo">
         <img src="img/logo/logo.png" alt="">
         <h1>WELCOME TO DELHANI STUDIO</h1> 
@@ -30,26 +37,57 @@
     </div>
     
     <div class="sec4">
-        <h3>WHAT WE DO></h3>
+        <h3>WHAT WE DO</h3>
         <div class="row">
             <div class="column">
-                <button class="btn"><img src="/img/services_icons/design_icon.png" alt=""></button>
+                <div>
+                <button  type="button" class="btn"><img src="/img/services_icons/design_icon.png" alt="">DESIGN</button>
+            </div>
             </div>
             <div class="column">
-                <button class="btn"><img src="/img/services_icons/dev_icon.png" alt=""></button>
+                <button class="btn"><img src="/img/services_icons/dev_icon.png" alt="">DEVELOPMENT</button>
             </div>
             <div class="column">
-                <button class="btn"><img src="/img/services_icons/product_icon.png" alt=""></button>
+                <button class="btn"><img src="/img/services_icons/product_icon.png" alt="">PRODUCT</button>
             </div>
         </div>
-        
-        
-        
-
         <h3>PORTFOLIO</h3>
+    </div>
+    <div class="row2">
+        <div class="column2"><img src="/img/portfolio/work1.jpg" alt="" style="width:280px"></div>
+        <div class="column2"><img src="/img/portfolio/work2.jpg" alt="" style="width:280px"></div>
+        <div class="column2"><img src="/img/portfolio/work3.jpg" alt="" style="width:280px"></div>
+        <div class="column2"><img src="/img/portfolio/work4.jpg" alt="" style="width:280px"></div>
+    </div>
+    <div class="row2">
+        <div class="column2"><img src="/img/portfolio/work5.jpg" alt="" style="width:280px"></div>
+        <div class="column2"><img src="/img/portfolio/work6.jpg" alt="" style="width:280px"></div>
+        <div class="column2"><img src="/img/portfolio/work7.jpg" alt="" style="width:280px"></div>
+        <div class="column2"><img src="/img/portfolio/work8.jpg" alt="" style="width:280px"></div>
+    </div>
+    <div class="contact">
+        <h1>CONTACT US</h1>
+        <form action="/action_page.php" >
+            <label for="name"> Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="Email" placeholder="Email">
+        </form>
+        <form>
+            <textarea>Your message here...</textarea>
+          </form>
+        
 
     </div>
-
+</div>
     
+    
+      
+    
+
+    <script src="/js/scripts.js"></script>
+    <script src="/js/jquery-3.4.1.js"></script>
+    <script src="/js/bootstrap.js"></script> 
 </body>
 </html>
