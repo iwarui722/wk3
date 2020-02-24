@@ -26,6 +26,7 @@
 .column{
     flex:33.33%;
     padding:70px;
+    text-align: center;
 }
 .row{
     display: flex;
@@ -81,13 +82,13 @@
     font-size: 14px;
 }
 .column2 {
-    position: relative;
+    position: flex;
     width: 50%;
   }
   .column2 {
     float: left;
-    width: 272px;
-    padding: 4px;
+    width: 274px;
+    padding: 6px;
   }
   
   .image {
@@ -123,6 +124,21 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  
+  .social{
+      text-align: center;
+      padding: 20px;
+  }
+  input[type=submit]  {
+    background-color:transparent;
+    color: white;
+  }
+  .mouse{
+      line-height: 300px;
+      height: 30px;
+  }
+  .container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+  }
  
   
