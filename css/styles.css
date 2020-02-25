@@ -3,7 +3,7 @@
     color: white;
     padding: 280px;
     font-size: 30px;
-    background-image:url(/img/backgrounds/h_img.jpg);
+    background-image:url(../img/backgrounds/h_img.jpg);
 }
 .aboutus{
     text-align: center;
@@ -13,7 +13,7 @@
 }
 .services{
     text-align: center;
-    background-image: url(/img/backgrounds/s_image.jpg);
+    background-image: url(../img/backgrounds/s_image.jpg);
     padding: 30px;
     font-size: 15px;
     color: white;
@@ -53,7 +53,7 @@
     display: table;
   }
   .contact{
-      background-image: url(/img/backgrounds/c_image.jpg) ;
+      background-image: url(../img/backgrounds/c_image.jpg) ;
       text-align:center;
       padding: 210px;
       background-color: transparent;
